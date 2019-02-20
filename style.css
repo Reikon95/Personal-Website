@@ -1,0 +1,60 @@
+body{
+  margin: 0;
+}
+nav{
+    position: fixed;
+    font-family: 'Merriweather', serif;
+    }
+h1{
+  margin: 0;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  }
+
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: #111;
+}
+#welcome-section{
+  background-color: gray;
+  height: 100vh;
+  
+}
+
+h1, h2{
+  padding-top: 80px;
+  font-family: 'Merriweather', serif;
+  color: white;
+  text-align: center;
+
+}
+
+ #about, #contact, #projects{
+  font-family: 'Merriweather', serif;
+  color: black;
+  text-align: center;
+  
+}
+.social{
+  height: 50px;
+  width: 50px;
+}
+
+@media only screen and (min-width: 361px) {
+    nav>ul>li {
+        display: inline-block;
+    }
+}
