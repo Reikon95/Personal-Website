@@ -56,8 +56,12 @@ h1, h2{
   width: 50px;
 }
 #myPic {
-height: 50px;
-width: 50px;
+  height: 100px;
+  width: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
   
 @media only screen and (min-width: 361px) {
