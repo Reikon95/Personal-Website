@@ -56,8 +56,8 @@ h1, h2{
   width: 50px;
 }
 #myPic {
-  height: 100px;
-  width: 100px;
+  height: 15%;
+  width: 15%;
   display: block;
   margin-left: auto;
   margin-right: auto;
